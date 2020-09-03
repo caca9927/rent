@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Kanit|Pattaya|Athiti&display=swap');
+
+
+
+
+.body > img{
+    width: 100%;
+    align-items: center;
+}
+
+
+*{
+    font-family: 'Barlow Condensed', 'Kanit';
+}
+
+li > a{
+    font-size: 16pt;
+}
+
+.head > h1{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 60pt;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #c55f00 ;
+}
+
+.head > p{
+    font-size: 18pt;
+    color: aliceblue;
+}
+.head{
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+}
+
+.inside{
+    margin: 30px;
+    background-color: #d1cfcf;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.inside > h2{
+    display: flex;
+    padding: 10px;
+}
+
+.search{
+    margin-top: 30px;
+    
+}
+
+.searching{
+    display: flex;
+
+}
+
+.searching > button{
+    margin-left: 20px;
+}
+
+.login{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login > h1{
+    text-align: center;
+}
+
+.signup{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.signup > h1{
+    text-align: center;
+}
+
+.l{
+    margin-bottom: 15px;
+}
+
+.account {
+    background-color:rgba(255, 255, 255, 0.48);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #535252;
+}
+
+
+
+.add{
+    margin: 50px;
+
+}
+
+.price{
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.location{
+    align-items: center;
+}
+
+.prices{
+    background-color: rgb(241, 165, 0);
+    width: 260px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pricess{
+    background-color: rgb(31, 117, 197);
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.comment{
+    margin: 30px;
+    background-color: #c0bdbd;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.buttonn{
+    margin-left: 500px;
+}
+
+.show_comment{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.name_phone {
+    padding-left: -20px;
+    align-items: center;
+    display: block;
+    font-family: 'Athiti', 'Kanit';
+    align-items: center;
+    
+}
+
+.data_comment{
+    padding: 15px;
+    padding-left: 35px;
+    background-color: #eeeded;
+    width: 1408px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family:  'Kanit';
+    align-items: center;
+}
+
+.reply{
+    margin-top: 20px;
+}
+
+.data_reply_main{
+    background-color: rgb(186, 224, 148);
+    padding: 15px;
+    width: auto;
+    border-radius: 18px 0px 18px 18px;
+    margin-top: 10px;
+    padding-left: 30px;
+    align-items: baseline;
+
+}
+
+.visitors{
+    display: flex;
+    align-items: baseline;
+    font-size: 16px;
+}
